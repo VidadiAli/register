@@ -88,25 +88,54 @@
 }
 
 
-@media (max-width: 1200px){
+@media (max-width: 1300px){
      .input-group{
     	left: 30rem;
+     }
+     #p1{
+     	left: 10rem;
+     }
+}
+@media (max-width: 1150px){
+     .input-group{
+    	left: 25rem;
+     }
+     #p1{
+     	left: 6rem;
      }
 }
 @media (max-width: 990px){
      .input-group{
     	left: 20rem;
      }
+     #p1{
+     	left: 3rem;
+     }
 }
 @media (max-width: 800px){
      .input-group{
     	left: 15rem;
      }
+     #p1{
+     	left: 1rem;
+     }
 }
-
+@media (max-width: 680px){
+	#p1{
+	 width: 20rem;
+	}
+	.social{
+    	margin: 0;
+    	margin-top: 50px;
+    }
+    .social img{
+    	margin: 0;
+    	margin-left: 20px;
+    }
+}
 @media (max-width: 550px){
 	#p1{
-		left: 1rem;
+		left: -2rem;
 	}
     .input-group{
     	left: 10rem;
@@ -117,14 +146,6 @@
     .submit .button{
     	top: 1rem;
     }
-    .social{
-    	margin: 0;
-    	margin-top: 50px;
-    }
-    .social img{
-    	margin: 0;
-    	margin-left: 20px;
-    }
 }
 
 @media (max-width: 460px){
@@ -132,12 +153,17 @@
     	left: 5rem;
     }
 }
-
-@media (max-width: 360px){
-    .input-group{
-    	left: 1rem;
+@media (max-width: 420px){
+	.social{
+    	margin: 0;
+    	margin-top: 50px;
+    }
+    .social img{
+    	margin: 0;
+    	margin-left: 10px;
     }
 }
+
 @media (max-width: 360px){
     .input-group{
     	left: 2rem;
@@ -146,5 +172,13 @@
     .submit .button{
     	top: 1rem;
     	width: 60%;
+    }
+    .social{
+    	margin: 0;
+    	margin-top: 50px;
+    }
+    .social img{
+    	margin: 0;
+    	margin-left: 5px;
     }
 }
